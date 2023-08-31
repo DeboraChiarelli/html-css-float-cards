@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+#text-center {
+    text-align: center;
+}
+
+.container  {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.card {
+    float:left;
+    width: 33,33%;
+}
+
+/* Debug */
+
+.debug .card {
+    border: 2px solid black;
+    padding: 10px;
+}
